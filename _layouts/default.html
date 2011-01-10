@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta content='width=960' name='viewport' />
+    <meta content='{{ page.description }}' name='description' />
+    <meta content='evansville, christian counseling, {{ page.keywords }}' name='keywords' />
+
+    <title>{{ page.title }} - Evansville Christian Counseling</title>
+
+    <!-- <link href='/images/icon.gif' rel='icon' /> -->
+    <!-- <link href="/stylesheets/reset.css" type="text/css" media="screen" rel="stylesheet"/>
+    <link href="/stylesheets/960.css" type="text/css" media="screen" rel="stylesheet"/>
+    <link href="/stylesheets/text.css" type="text/css" media="screen" rel="stylesheet"/> -->
+    <link href="/stylesheets/styles.css" type="text/css" media="screen" rel="stylesheet"/>
+  </head>
+
+  <body>
+
+    <div class="container_16">
+      <div id="header" class="grid_16 alpha omega">
+        <div><a href="/" title="Evansville Christian Counseling">LOGO?</a></div>
+        <div class="punchline">Slogan</div>
+      </div>
+
+      <div id="main-menu" class="grid_16 alpha omega">
+        <ul>
+          <li><a href="/" title="Evansville Christian Counseling">Home</a></li>
+          <li><a href="/" title="Our Services">Services</a></li>
+          <li><a href="/" title="Our Statement of Faith">Statement of Faith</a></li>
+        </ul>
+      </div>
+
+      <div id="content" class="grid_16 alpha omega">
+        {{ content }}
+      </div>
+
+      <div id="footer" class="grid_16 alpha omega">
+        <div id="copyright">
+          &copy; {{ site.time | date: "%Y" }}
+          EvansvilleChristianCounseling.com
+          - All rights reserved
+        </div>
+      </div>
+
+      <!-- script src="/javascripts/ga.js"></script -->
+    </div>
+
+  </body>
+</html>
