@@ -1,0 +1,79 @@
+body {
+  background-color: #faffe7;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+}
+
+a, a:visited { color: #660033; }
+a:active { color: #993366; }
+
+p { text-align: justify; }
+
+/* header */
+
+#header a {
+  color: #444;
+  font-family: "Fontin Sans", Helvetica, Arial, sans-serif;
+  font-size: 40pt;
+  text-decoration: none;
+}
+#header a:hover { text-decoration: underline; }
+
+/* main menu */
+
+#main-menu {
+  border: 1px dotted #888;
+  border-left: 0; border-right: 0;
+  padding: 1ex 0;
+  font-size: 125%;
+  margin: 1em 0;
+}
+
+#main-menu a, #main-menu a:visited {
+  color: #6699cc;
+  text-decoration: none;
+}
+#main-menu a:active { color: #993366; }
+#main-menu a:hover { text-decoration: underline; }
+
+#main-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#main-menu li {
+  display: inline-block;
+  margin: 0;
+  padding: 0 1em 0 0;
+}
+
+/* fancy lead */
+
+#fancy-lead {
+  background-color: #336699;
+}
+
+#fancy-lead p {
+  color: white;
+  font-style: italic;
+  font-family: Georgia, serif;
+  font-size: 200%;
+  padding: 1ex 1em;
+}
+
+/* counselors */
+
+#counselors ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#counselors li {
+  margin: 0;
+  padding: 0;
+}

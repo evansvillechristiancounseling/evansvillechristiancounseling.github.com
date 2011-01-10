@@ -1,0 +1,15 @@
+/* Fontin Sans */
+
+@font-face {
+  font-family: 'Fontin Sans';
+	font-weight: normal;
+	font-style: normal;
+  src: url('fontin/fontin_sans_r_45b-webfont.eot');
+}
+
+@font-face {
+  font-family: 'Fontin Sans';
+	font-weight: normal;
+	font-style: normal;
+  src: url(//:) format('no404'), url('fontin/fontin_sans_r_45b-webfont.woff') format('woff'), url('/fontin/fontin_sans_r_45b-webfont.ttf') format('truetype');
+}
