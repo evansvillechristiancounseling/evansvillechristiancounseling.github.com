@@ -137,3 +137,21 @@ p { text-align: justify; }
 #counselors li a {
   font-size: 125%;
 }
+
+#counselor #counselors {
+  border-top: 1px dotted #888;
+  padding-top: 1em;
+  font-size: 95%;
+}
+
+#counselor dl {
+  font-size: 95%;
+}
+#counselor dt {
+  color: #999;
+  font-weight: bold;
+}
+#counselor dd {
+  margin-bottom: 1ex;
+}
+
