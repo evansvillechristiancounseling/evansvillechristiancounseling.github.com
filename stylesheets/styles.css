@@ -17,6 +17,7 @@ a:active { color: #993366; }
 p { text-align: justify; }
 
 .center { text-align: center; }
+.right { text-align: right; }
 
 /* container */
 
@@ -57,7 +58,7 @@ p { text-align: justify; }
   padding: 0 0.35ex;
   border-radius: 4px;
 }
-#header.home a#title div {
+#header a#title div {
   font-size: 50%
 }
 
@@ -78,12 +79,12 @@ p { text-align: justify; }
 /* main menu */
 
 #main-menu {
-  padding: 1ex 0;
+  padding: 1ex 0 0 0;
   font-size: 12pt;
 }
 
 #main-menu #slogan {
-  float: left;
+ float: left; padding-top: 0.5ex;
 }
 
 #main-menu a, #main-menu a:visited {
@@ -176,5 +177,19 @@ p { text-align: justify; }
 }
 #counselor dd {
   margin-bottom: 1ex;
+}
+
+#counselors-quicklinks {
+  font-family: Helvetica, Arial, sans-serif;
+}
+#counselors-quicklinks ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#counselors-quicklinks li {
+  clear: both;
+  margin: 0;
+  padding: 0;
 }
 
