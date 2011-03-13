@@ -1,5 +1,10 @@
 body {
-  background-color: #faffe7;
+  background-image: url("/images/bg.gif");
+  background-repeat: repeat;
+  background-color: #fff;
+/*  background-color: #faffe7;*/
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11pt;
 }
 
 h2 {
@@ -12,37 +17,76 @@ a:active { color: #993366; }
 
 p { text-align: justify; }
 
+.center { text-align: center; }
+
+/* container */
+
+#container {
+  background-image: none;
+  background-color: #fff;
+  border: 2px solid #999;
+  border-top: 0;
+  padding: 0 1em;
+}
+
 /* header */
 
-#header a {
+#header {
   color: #444;
   font-family: "Fontin Sans", Helvetica, Arial, sans-serif;
+  border-bottom: 1px dotted #888;
+  margin-bottom: 1em;
+}
+
+#header a#title {
+  color: #444;
   font-size: 40pt;
   text-decoration: none;
 }
-#header a:hover { text-decoration: underline; }
+#header a#title:hover {
+  text-decoration: none;
+}
+#header a#title span {
+  color: #fff;
+  background-color: #336699;
+  padding: 0 0.35ex;
+  border-radius: 4px;
+}
+#header.support a#title {
+  font-size: 32pt;
+}
+
+/* slogan */
+
+#slogan {
+  font-size: 12pt;
+  padding: 0;
+  display: inline-block;
+  color: #666;
+  margin: 0 1ex 0 0;
+}
 
 /* main menu */
 
 #main-menu {
-  border: 1px dotted #888;
-  border-left: 0; border-right: 0;
   padding: 1ex 0;
-  font-size: 125%;
-  margin: 1em 0;
+  font-size: 12pt;
 }
 
 #main-menu a, #main-menu a:visited {
   color: #6699cc;
   text-decoration: none;
+  font-size: 12pt;
 }
 #main-menu a:active { color: #993366; }
 #main-menu a:hover { text-decoration: underline; }
 
 #main-menu ul {
-  list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 2em;
+  border-left: 1px dotted #888;
+  display: inline-block;
+  list-style-type: none;
 }
 
 #main-menu li {
@@ -51,17 +95,25 @@ p { text-align: justify; }
   padding: 0 1em 0 0;
 }
 
+/* footer */
+
+#footer {
+  padding: 1em 0;
+  color: #888;
+}
+
 /* fancy lead */
 
 #fancy-lead {
   background-color: #336699;
+  border-radius: 4px;
 }
 
 #fancy-lead p {
   color: white;
   font-style: italic;
   font-family: Georgia, serif;
-  font-size: 200%;
+  font-size: 170%;
   padding: 1ex 1em;
 }
 
@@ -74,6 +126,15 @@ p { text-align: justify; }
 }
 
 #counselors li {
+  clear: both;
   margin: 0;
   padding: 0;
+}
+
+#counselors li img {
+  margin: 0 1ex 1em 0;
+}
+
+#counselors li a {
+  font-size: 125%;
 }
