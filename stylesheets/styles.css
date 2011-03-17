@@ -26,12 +26,12 @@ p { text-align: justify; }
   background-color: #fff;
   border: 2px solid #999;
   border-top: 0;
-  padding: 0 0 0 1em;
+  padding: 3em;
 }
 
 #container.courthouse {
   background-image: url("/images/courthouse-bg-1000w.gif");
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-position: top right;
 }
 
@@ -114,9 +114,7 @@ p { text-align: justify; }
   margin: 0;
   padding: 0 1em 0 0;
 }
-#main-menu li:last-child {
-  padding: 0;
-}
+#main-menu li:last-child { padding: 0; }
 
 /* footer */
 
@@ -145,22 +143,18 @@ p { text-align: justify; }
 #counselors ul {
   list-style-type: none;
   margin: 0;
+  text-align: right;
   padding: 0;
 }
 
 #counselors li {
   clear: both;
-  margin: 0;
+  margin: 0 0 1em 0;
   padding: 0;
 }
 
-#counselors li img {
-  margin: 0 1ex 1em 0;
-}
-
-#counselors li a {
-  font-size: 125%;
-}
+#counselors li img { margin: 0 0 0.5ex 0; }
+#counselors li a { font-size: 125%; }
 
 #counselor #counselors {
   border-top: 1px dotted #888;
@@ -168,16 +162,12 @@ p { text-align: justify; }
   font-size: 95%;
 }
 
-#counselor dl {
-  font-size: 95%;
-}
+#counselor dl { font-size: 95%; }
 #counselor dt {
   color: #999;
   font-weight: bold;
 }
-#counselor dd {
-  margin-bottom: 1ex;
-}
+#counselor dd { margin-bottom: 1ex; }
 
 #counselors-quicklinks {
   font-family: Helvetica, Arial, sans-serif;
