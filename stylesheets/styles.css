@@ -45,7 +45,7 @@ sup {
 }
 
 #container.courthouse {
-  background-image: url("/images/courthouse-bg-1000w.gif");
+  /*background-image: url("/images/courthouse-bg-1000w.gif");*/
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -160,7 +160,10 @@ sup {
 /* what is it */
 
 #what-is-it {
-  font-size: 110%;
+  font-size: 100%;
+}
+#what-is-it .passage em {
+  font-family: Georgia, serif;
 }
 
 /* counselors */
