@@ -1,0 +1,37 @@
+/*
+ * Forest: #7f9a00
+ * Early Growth Forest: #afd675
+ * Cream: #f4fdd8
+ * Sea Foam: #e4f2db
+ * Sea: #b7ddcb
+ */
+
+a, a:visited { color: #7f9a00; }
+a:active { color: #afd675; }
+
+#container {
+  background-color: #f4fdd8;
+}
+
+#header a#title span {
+  color: #fff;
+  background-color: #7f9a00;
+}
+#main-menu a, #main-menu a:visited {
+  color: #333;
+}
+#main-menu ul {
+  background-color: #b7ddcb;
+}
+
+#fancy-lead {
+  background-color: #afd675;
+}
+#fancy-lead p {
+  color: #333;
+}
+
+#counselor dd li:hover {
+  background-color: #fafafa;
+}
+

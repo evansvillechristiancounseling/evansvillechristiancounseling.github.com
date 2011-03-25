@@ -28,12 +28,6 @@ p { text-align: justify; }
   padding-top: 1ex;
 }
 
-sup {
-  font-size: 75%;
-  display: inline-block;
-  padding-top: -1em;
-}
-
 /* container */
 
 #container {
@@ -103,7 +97,8 @@ sup {
 }
 
 #main-menu #slogan {
- float: left; padding-top: 0.5ex;
+ float: left;
+ padding-top: 0.5ex;
 }
 
 #main-menu a, #main-menu a:visited {
@@ -150,7 +145,7 @@ sup {
 }
 
 #fancy-lead p {
-  color: white;
+  color: #fff;
   font-style: italic;
   font-family: Georgia, serif;
   font-size: 170%;
@@ -170,8 +165,8 @@ sup {
 
 #counselors ul {
   list-style-type: none;
-  margin: 0;
   text-align: right;
+  margin: 0;
   padding: 0;
 }
 
