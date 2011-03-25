@@ -18,6 +18,21 @@ p { text-align: justify; }
 
 .center { text-align: center; }
 .right { text-align: right; }
+.left { text-align: left; }
+
+.footnote {
+  font-style: italic;
+  font-family: Georgia, serif;
+  color: #444;
+  border-top: 1px dotted #aaa;
+  padding-top: 1ex;
+}
+
+sup {
+  font-size: 75%;
+  display: inline-block;
+  padding-top: -1em;
+}
 
 /* container */
 
@@ -64,6 +79,10 @@ p { text-align: justify; }
 
 #header.support a#title {
   font-size: 28pt;
+}
+
+#header #location {
+  font-size: 115%;
 }
 
 /* slogan */
@@ -138,6 +157,12 @@ p { text-align: justify; }
   padding: 1ex 1em;
 }
 
+/* what is it */
+
+#what-is-it {
+  font-size: 110%;
+}
+
 /* counselors */
 
 #counselors ul {
@@ -156,18 +181,40 @@ p { text-align: justify; }
 #counselors li img { margin: 0 0 0.5ex 0; }
 #counselors li a { font-size: 125%; }
 
+#counselor .photo {
+  padding: 0 0 2em 2em;
+}
+
 #counselor #counselors {
   border-top: 1px dotted #888;
   padding-top: 1em;
   font-size: 95%;
 }
 
-#counselor dl { font-size: 95%; }
+#counselor dl {
+  font-size: 95%; margin-top: 1em;
+}
 #counselor dt {
   color: #999;
   font-weight: bold;
 }
-#counselor dd { margin-bottom: 1ex; }
+#counselor dd { margin-bottom: 1em; }
+#counselor dd ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#counselor dd li {
+  margin: 0;
+  padding: .5ex 0;
+  border-bottom: 1px dotted #ccc;
+}
+#counselor dd li:hover {
+  background-color: #fafafa;
+}
+#counselor dd li:last-child {
+  border: 0;
+}
 
 #counselors-quicklinks {
   font-family: Helvetica, Arial, sans-serif;
@@ -183,3 +230,13 @@ p { text-align: justify; }
   padding: 0;
 }
 
+/* payment options */
+
+#payment-options dt {
+  margin: 1em 0 1ex 0;
+  color: #666;
+}
+
+#payment-options dd {
+  text-align: justify;
+}
