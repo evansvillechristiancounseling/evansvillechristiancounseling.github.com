@@ -2,15 +2,23 @@
  * Forest: #7f9a00
  * Early Growth Forest: #afd675
  * Cream: #f4fdd8
- * Sea Foam: #e4f2db
+ * Sea Foam: #e0ecd4
  * Sea: #b7ddcb
  */
+
+body {
+  background-image: url("/images/bg3.png");
+  background-repeat: repeat;
+  background-color: #b7ddcb;
+}
 
 a, a:visited { color: #7f9a00; }
 a:active { color: #afd675; }
 
 #container {
   background-color: #f4fdd8;
+  border: 3px solid #999;
+  border-top: 0;
 }
 
 #header a#title span {
@@ -32,6 +40,6 @@ a:active { color: #afd675; }
 }
 
 #counselor dd li:hover {
-  background-color: #fafafa;
+  background-color: #e0ecd4;
 }
 
