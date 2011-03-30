@@ -21,6 +21,9 @@ a:active { color: #afd675; }
   border-top: 0;
 }
 
+#header a#title {
+  font-size: 30pt;
+}
 #header a#title span {
   color: #fff;
   background-color: #7f9a00;
