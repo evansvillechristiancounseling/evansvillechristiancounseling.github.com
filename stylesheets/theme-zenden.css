@@ -25,6 +25,9 @@ a:active { color: #afd675; }
   color: #fff;
   background-color: #7f9a00;
 }
+#header #location {
+  font-weight: bold;
+}
 #main-menu a, #main-menu a:visited {
   color: #333;
 }
