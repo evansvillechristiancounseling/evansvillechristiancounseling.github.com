@@ -22,6 +22,9 @@ a:active { color: #afd675; }
 }
 
 #header a#title {
+  font-size: 32pt;
+}
+#header.support a#title {
   font-size: 30pt;
 }
 #header a#title span {
