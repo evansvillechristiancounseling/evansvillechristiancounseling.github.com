@@ -24,6 +24,10 @@ Evansville, IN 47710
 vknowlden@sit-co.net
 elliemalek@yahoo.com
 
+### Development by
+
+Justin "Gus" Knowlden
+
 # Attributions
 
 * [Elgin Courthouse](http://www.flickr.com/photos/albany_tim/3184894911/sizes/o/in/photostream/)
