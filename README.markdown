@@ -17,7 +17,6 @@ Malpractice Insured through Healthcare Provider Service Organization
 1133 W. Mill Road, Suite 204
 Evansville, IN 47710
 812-483-2364
-812-550-5532
 
 vknowlden@sit-co.net
 
