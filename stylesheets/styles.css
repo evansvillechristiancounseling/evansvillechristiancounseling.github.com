@@ -240,3 +240,20 @@ p { text-align: justify; }
 #payment-options dd {
   text-align: justify;
 }
+
+/* testimonials */
+.testimonials {
+  border-radius: 4px;
+  padding: 1ex 1em;
+}
+
+.testimonials > div:last-child {
+  margin-top: 2em;
+}
+.testimonials .testimony .quote {
+  text-align: justify;
+  font-style: italic;
+  font-family: Georgia, serif;
+  color: #444;
+}
+
