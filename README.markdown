@@ -1,6 +1,6 @@
 # Evansville Christian Counseling
 
-A simple site for my step-mom's counseling service.
+A simple site for a counseling service.
 
 ## Colors
 
@@ -10,11 +10,9 @@ A simple site for my step-mom's counseling service.
 ## Stuff
 
 Vickie Knowlden, LCSW
-Ellie Malek, MSW
 
-Graduates of University of Southern Indiana with a Master’s of Social Work
+Graduate of University of Southern Indiana with a Master’s of Social Work
 Malpractice Insured through Healthcare Provider Service Organization
-
 
 1133 W. Mill Road, Suite 204
 Evansville, IN 47710
@@ -22,13 +20,8 @@ Evansville, IN 47710
 812-550-5532
 
 vknowlden@sit-co.net
-elliemalek@yahoo.com
 
 ### Development by
 
 Justin "Gus" Knowlden
-
-# Attributions
-
-* [Elgin Courthouse](http://www.flickr.com/photos/albany_tim/3184894911/sizes/o/in/photostream/)
 
