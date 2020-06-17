@@ -2,3 +2,4 @@ lsi: false
 port: 11011
 permalink: /:categories/:title
 highlighter: null
+encoding: utf-8
