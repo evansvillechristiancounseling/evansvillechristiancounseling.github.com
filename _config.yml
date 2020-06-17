@@ -1,5 +1,10 @@
 lsi: false
-port: 11011
+port: 4567
 permalink: /:categories/:title
 highlighter: null
 encoding: utf-8
+
+exclude:
+    - Dockerfile
+    - Makefile
+    - README.md
