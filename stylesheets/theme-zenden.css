@@ -16,7 +16,8 @@ a, a:visited { color: #7f9a00; }
 a:active { color: #afd675; }
 
 #container {
-  background-color: #f4fdd8;
+  /* background-color: #f4fdd8; */
+  background-color: #f4fdf8;
   border: 3px solid #999;
   border-top: 0;
 }

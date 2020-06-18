@@ -39,7 +39,6 @@ p { text-align: justify; }
 }
 
 #container.courthouse {
-  /*background-image: url("/images/courthouse-bg-1000w.gif");*/
   background-repeat: no-repeat;
   background-position: top right;
 }
