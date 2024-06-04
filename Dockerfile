@@ -1,8 +1,8 @@
-FROM ruby:2.7.1-buster
+FROM ruby:latest
 
 WORKDIR /app
 
-RUN bundle init && bundle add github-pages
+RUN bundle init && bundle add github-pages webrick
 
 EXPOSE 4567
 CMD jekyll serve -P 4567 -H 0.0.0.0 --incremental
